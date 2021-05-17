@@ -12,7 +12,7 @@ import './style.css';
 const Option = ({ type, text, onSelected }) => {
   const handleClick = () => {
     console.log(text);
-    onSelected();
+    onSelected(type);
   };
 
   return (
